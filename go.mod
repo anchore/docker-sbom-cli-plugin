@@ -3,19 +3,16 @@ module github.com/docker/sbom-cli-plugin
 go 1.18
 
 require (
-	github.com/Microsoft/hcsshim v0.9.2 // indirect
 	github.com/acarl005/stripansi v0.0.0-20180116102854-5a71ef0e047d
 	github.com/anchore/stereoscope v0.0.0-20220518185348-c97a3c6ffc67
 	github.com/anchore/syft v0.46.3
 	github.com/containerd/containerd v1.5.10 // indirect
-	github.com/containerd/continuity v0.2.2 // indirect
 	github.com/docker/cli v20.10.12+incompatible
-	github.com/docker/docker v20.10.12+incompatible // indirect
+	github.com/docker/docker v24.0.9+incompatible // indirect
 	github.com/docker/docker-credential-helpers v0.6.4 // indirect
 	github.com/fvbommel/sortorder v1.0.2 // indirect
 	github.com/gookit/color v1.4.2
 	github.com/hashicorp/go-multierror v1.1.1
-	github.com/moby/sys/mount v0.3.1 // indirect
 	github.com/moby/term v0.0.0-20210619224110-3f7ff695adc6 // indirect
 	github.com/sirupsen/logrus v1.8.1
 	github.com/spf13/cobra v1.4.0
@@ -85,7 +82,6 @@ require (
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/mitchellh/hashstructure/v2 v2.0.2 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
-	github.com/moby/sys/mountinfo v0.6.0 // indirect
 	github.com/morikuni/aec v1.0.0 // indirect
 	github.com/nwaples/rardecode v1.1.0 // indirect
 	github.com/olekukonko/tablewriter v0.0.5 // indirect
